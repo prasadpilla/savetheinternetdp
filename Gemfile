@@ -29,6 +29,7 @@ gem 'omniauth-facebook' # Facebook authentication
 gem "koala", "~> 2.2" # Facebook API
 gem 'aws-sdk', '~> 2'
 gem "rename"
+gem 'puma'
 
 group :development, :test do
   gem 'byebug'
@@ -36,7 +37,6 @@ group :development, :test do
   gem 'spring'
   gem 'rspec-rails'
   gem 'capybara'
-  gem 'puma'
 end
 group :development do
   gem 'capistrano'
