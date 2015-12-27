@@ -1,0 +1,15 @@
+SECRET_KEY_BASE: "e7b35695c0627ea136501af8a9a093d98e7ced190c5c49f356794cad99c8704c38190dc64f5d7072017ef62c3eb307f7e7168a02f734a966dd6356ed80bd567a"
+FACEBOOK_KEY: "651590784943973"
+FACEBOOK_SECRET: "81b891821345181081911234066ff8bb" 
+GOOGLE_CLIENT_ID: "177189330599-7kch7a7asg1b7lnfh88heu6bkt0fccbr.apps.googleusercontent.com"
+GOOGLE_CLIENT_SECRET: "hM1XCfKCV0u0Jw3JhFdxd31s"
+mg_api_key: 'key-1cf10cd6474ebcbf493fdd1d6e430a1d'
+mg_port: '587'
+mg_domain: 'mg.readsup.com'
+mg_user_name: 'postmaster@mg.readsup.com'
+mg_password: 'ee1e35a9137cc1295ce667cafee06174'
+db_database: 'readsup_production'
+db_username: 'readsup'
+db_password: 'readsup123'
+db_host: 'readsup.c625odfjnpad.us-east-1.rds.amazonaws.com'
+db_port: '5432'
