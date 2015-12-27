@@ -1,0 +1,51 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+html, body {
+  height: 100%;
+}
+
+#wrapper {
+    min-height: 100%;
+    position: relative;
+}
+header {min-height: 100px;}
+.center {text-align: center;}
+#content { padding-bottom: 50px; }
+h1 {
+  small {
+    float: left;
+    text-align: right;
+    padding: 6px 10px;
+    p {
+      font-size: 14px;
+      font-weight: normal;
+      padding: 4px 0;
+    }
+  }
+}
+
+.pdbtm-sm {
+  margin-bottom: 40px;
+  a.btn {
+    margin: 0 0 10px 0;
+  }
+}
+
+footer {
+    bottom: 0;
+    height: 50px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+footer div {
+  border-top: 1px solid #ccc;
+}
+
+picture {
+  
+  align:center;
+}

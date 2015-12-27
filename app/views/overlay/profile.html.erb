@@ -1,0 +1,21 @@
+<p>Publish this image and set it as your profile picture !</p>
+<p>&nbsp;</p>
+<div class="row">
+  <% @overlay_images.each do |image|  %>
+    <div class="col-md-3 col-sm-6 col-xs-12 pdbtm-sm">
+    
+      <p><%= image_tag "https://s3-ap-southeast-1.amazonaws.com/saveinternet/#{current_user.uid}_#{image}",
+              class: 'img-responsive',data: {action: 'zoom'} %></p>
+      <div class="row">
+        <div class="col-md-6 col-sm-6">
+          <%= link_to 'Publish', publish_path(image: image.split('.').first),
+              class: 'btn btn-primary btn-block', target: '_blank' %>
+        </div>
+        <div class="col-md-6 col-sm-6">
+          <%= link_to 'Download', download_path(image: image.split('.').first),
+              class: "btn btn-success btn-block" %>
+        </div>
+      </div>
+    </div>
+  <% end %>
+</div>
