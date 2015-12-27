@@ -1,12 +1,12 @@
 <p style="font-family:verdana;font-size:150%;">Hit the publish buttom, the image opens up in facebook, Click on "Set as Profile picture" at the bottom. That's It !</p>
-</br>
+<p>&nbsp;</p>
 <div class="row">
   <% @overlay_images.each do |image|  %>
     <div class="col-md-3 col-sm-6 col-xs-12 pdbtm-sm col-md-offset-4">
       <p><%= image_tag "https://s3-ap-southeast-1.amazonaws.com/saveinternet/#{current_user.uid}_#{image}",
               class: 'img-responsive',data: {action: 'zoom'} %></p>
-      <div class="row ">
-        <div class="col-md-0 col-sm-16">
+      <div class="row">
+        <div class="col-md-3 col-sm-16">
           <%= link_to 'Publish to Facebook', publish_path(image: image.split('.').first),
               class: 'btn btn-primary btn-publish', target: '_blank' %>
         </div>
