@@ -42,7 +42,7 @@ class OverlayController < ApplicationController
   private
     def fetch_image
       image = params.fetch(:image) if params[:image]
-      url = 'https://s3-ap-southeast-1.amazonaws.com/saveinternet'
+      url = ENV['S3_BUCKET_URL']
       @file_path = "#{url}/#{current_user.uid}_#{image}.png"
     end
 
