@@ -1,0 +1,1 @@
+window.fbAsyncInit=function(){FB.init({appId:"1656701154577639",xfbml:!0,status:!0,version:"v2.5"})},function(e,n,t){var o,s=e.getElementsByTagName(n)[0];e.getElementById(t)||(o=e.createElement(n),o.id=t,o.src="//connect.facebook.net/en_US/sdk.js",s.parentNode.insertBefore(o,s))}(document,"script","facebook-jssdk");
