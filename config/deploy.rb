@@ -1,6 +1,6 @@
 lock '3.4.0'
 
-set :application, 'savetheinternet'
+set :application, 'savetheinternetdp'
 set :repo_url, 'git@github.com:prasadpilla/savetheinternetdp.git' # Edit this to match your repository
 set :branch, :master
 set :deploy_to, '/home/deploy/savetheinternet'
