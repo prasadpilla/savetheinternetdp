@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>#SaveTheInternet</title>
+  <title>Profile Picture for #SaveTheInternet</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
@@ -16,7 +16,18 @@
     </header>
 
     <div id="content"><%= yield %></div>
-    <%= render 'layouts/footer' %>
+    <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="description" content="Change facebook profile pictures to support #SaveTheInternet">
+
+     <meta property="og:site_name" content="DP for #SaveTheInternet">
+      <meta property="og:type" content="website">
+      <meta property="og:url" content="https://savetheinternet.readsup.com/">
+      <meta property="og:title" content="Profile picture for #SaveTheInternet">
+      <meta property="og:description" content="Change facebook profile pictures to support #SaveTheInternet">
+      <meta property="og:locale" content="en_IN">
   </div>
 </body>
 </html>
